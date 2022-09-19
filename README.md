@@ -12,7 +12,7 @@ Drakula is an Industrial Internet of Things gateway controller which seeks to co
 •	Zero Effort\
 •	Zero Cost\
 •	Interactive\
-•	Value Addition\
+•	Value Addition
 
 ## How it works
 
