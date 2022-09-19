@@ -73,9 +73,9 @@ Your car’s dashboard can tell you the remaining oil life, miles to empty, temp
 
 ![Architecture image](https://github.com/Tynashe28/IIOT_Industrial_interface_controller/blob/main/images/4.PNG/)
 ### Main-Features
-•	Supports all Ethernet communications (Modbus, Profinet, TCP etc.)
-•	Supports Modbus over RS-485
-•	Wi-Fi connectivity (Supports WebSocket connection)
-•	Bi-Directional Communication
-•	Asynchronous and Non-Blocking routines
-•	3 logical Processing Cores
+•	Supports all Ethernet communications (Modbus, Profinet, TCP etc.)\
+•	Supports Modbus over RS-485\
+•	Wi-Fi connectivity (Supports WebSocket connection)\
+•	Bi-Directional Communication\
+•	Asynchronous and Non-Blocking routines\
+•	3 logical Processing Cores\
