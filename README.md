@@ -6,4 +6,4 @@ Remote monitoring and controlling systems are designed to collect data about the
 
 Drakula is an Industrial Internet of Things gateway controller which seeks to connect manufacturing processes to the internet with zero effort and unleash the usefulness and power of technology in this field at zero cost. This controller makes it easy for industries to leverage trending and growing technologies like machine learning, IoT, blockchain, web backend services into their day to day operations. The beauty about Drakula is that it integrates on top of existing architectures and virtually no change can be made to existing setups to accommodate it.  
 
-[intro image](https://github.com/Tynashe28/IIOT_Industrial_interface_controller/blob/main/images/1.PNG/)
+![intro image](https://github.com/Tynashe28/IIOT_Industrial_interface_controller/blob/main/images/1.PNG/)
