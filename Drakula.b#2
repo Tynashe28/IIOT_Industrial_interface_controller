@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
@@ -155,7 +155,6 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6c3R1ZGVudHM4NjU5" projecturn="a.YnVzaW5lc3M6c3R1ZGVudHM4NjU5IzIwMjIwODE4NTQ3Njg3ODI2" f3durn="urn:adsk.wipprod:dm.lineage:Um0oaS_UTsSq8GoBRWUDAQ" pcbguid="7b28242e-5177-4439-b922-08b30a69a49e" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="d2660a07-8b8b-47d9-8c7e-a8f9f86d1cc1" lastsyncedrevisionid="d2660a07-8b8b-47d9-8c7e-a8f9f86d1cc1" lastboardhashguid="b9c74642-1b56-a3cc-fc87-3902da50f475" lastpushedtime="2022-08-18T20:59:16Z" linktopcb3d="true"/>
 <plain>
 <wire x1="0" y1="0" x2="97.77" y2="0" width="0" layer="20"/>
 <wire x1="97.77" y1="0" x2="97.77" y2="72.06" width="0" layer="20"/>
@@ -181,8 +180,6 @@
 <text x="7.112" y="36.703" size="0.8128" layer="26" font="vector" rot="MR0">TDO</text>
 <text x="6.985" y="34.417" size="0.8128" layer="26" font="vector" rot="MR0">TDI</text>
 <text x="6.985" y="31.496" size="0.8128" layer="26" font="vector" rot="MR0">TMS</text>
-<text x="19.05" y="57.15" size="1.778" layer="22" font="vector" rot="MR270">Drakula IIOT Interface Controller</text>
-<text x="8.89" y="64.77" size="3.81" layer="22" font="vector" rot="MR270">By Tinashe</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -3999,11 +3996,14 @@ design rules under a new name.</description>
 <wire x1="24.28" y1="38.38" x2="24.13" y2="38.38" width="0.3" layer="1"/>
 <wire x1="21.28" y1="38.07" x2="21.45" y2="38.24" width="0.3" layer="1"/>
 <wire x1="21.45" y1="38.24" x2="21.59" y2="38.38" width="0.3" layer="1"/>
+<wire x1="22.78" y1="38.38" x2="22.86" y2="38.3" width="0.3" layer="1"/>
+<wire x1="24.23" y1="36.88" x2="24.28" y2="36.83" width="0.3" layer="1"/>
 <wire x1="30.34" y1="28.83" x2="29.64" y2="29.53" width="0.3" layer="1"/>
 <wire x1="29.64" y1="29.53" x2="29.445025" y2="29.53" width="0.3" layer="1"/>
 <wire x1="29.445025" y1="29.53" x2="26.67" y2="32.305025" width="0.3" layer="1"/>
 <wire x1="26.67" y1="32.305025" x2="26.67" y2="35.56" width="0.3" layer="1"/>
 <wire x1="26.67" y1="35.56" x2="25.4" y2="36.83" width="0.3" layer="1"/>
+<wire x1="25.4" y1="36.83" x2="24.28" y2="36.83" width="0.3" layer="1"/>
 <wire x1="14.84" y1="52.08" x2="13.716" y2="53.204" width="0.3" layer="1"/>
 <wire x1="13.716" y1="53.204" x2="13.716" y2="54.991" width="0.3" layer="1"/>
 <via x="13.716" y="54.991" extent="1-16" drill="0.35"/>
@@ -4146,6 +4146,7 @@ design rules under a new name.</description>
 <wire x1="85.768" y1="28.763" x2="86.106" y2="29.101" width="0.45" layer="1"/>
 <wire x1="86.106" y1="29.101" x2="86.106" y2="30.48" width="0.45" layer="1"/>
 <via x="86.106" y="30.48" extent="1-16" drill="0.35"/>
+<wire x1="22.78" y1="38.38" x2="22.64" y2="38.24" width="0.254" layer="1"/>
 <wire x1="21.59" y1="38.24" x2="21.45" y2="38.24" width="0.254" layer="1"/>
 <wire x1="21.59" y1="38.38" x2="21.59" y2="38.24" width="0.254" layer="1"/>
 <polygon width="0.254" layer="1">
@@ -5313,8 +5314,9 @@ design rules under a new name.</description>
 <wire x1="73.66" y1="5.842" x2="73.66" y2="11.43" width="0.3" layer="15"/>
 <wire x1="41.529" y1="0.762" x2="68.58" y2="0.762" width="0.3" layer="15"/>
 <wire x1="68.58" y1="0.762" x2="73.66" y2="5.842" width="0.3" layer="15"/>
+<wire x1="73.66" y1="11.43" x2="73.24" y2="11.43" width="0.254" layer="1"/>
+<wire x1="73.24" y1="11.43" x2="75.565" y2="11.43" width="0.254" layer="1"/>
 <wire x1="73.66" y1="11.43" x2="75.565" y2="11.43" width="0.254" layer="15"/>
-<wire x1="75.565" y1="11.43" x2="73.24" y2="11.43" width="0.254" layer="1"/>
 </signal>
 <signal name="VSS">
 <contactref element="J1" pad="13"/>
@@ -5367,8 +5369,8 @@ design rules under a new name.</description>
 </signal>
 </signals>
 <mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC8FFFFFF"/>
-<mfgpreviewcolor name="silkscreencolor" color="0xFF000000"/>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
 <mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
@@ -5409,11 +5411,6 @@ design rules under a new name.</description>
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports Fusion synchronisation.
-This feature will not be available in this version and saving
-the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
